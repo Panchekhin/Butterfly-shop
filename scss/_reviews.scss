@@ -1,0 +1,142 @@
+.reviews__body {
+   display: none;
+}
+.reviews__title {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 130px 0 80px;
+   text-align: center;
+}
+.reviews__title h2{
+   font-family: 'Open Sans';
+   font-weight: 400;
+   line-height: 135%;
+   font-size: calc(24px + 63 * (100vw / 1440));
+   margin: 0;
+}
+.slider-it {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: 0 10px;
+}
+.reviews__foto {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 22px;
+}
+.reviews__text h3 {
+   font-family: 'Open Sans';
+   font-weight: 400;
+   font-size: calc(24px + 24 * (100vw / 1440));
+   line-height: 135%;
+   margin: 0 0 40px 0;
+}
+.reviews__text p {
+   font-family: 'Open Sans';
+   font-weight: 400;
+   font-size: calc(24px + 0 * (100vw / 1440));
+   line-height: 137.5%;
+   margin: 0;
+}
+//слайдер _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.slick-list {
+   overflow: hidden;
+}
+.slick-track {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.reviews__slider {
+   position: relative;
+   padding: 0 298px;
+   min-width: 0;
+}
+.reviews__slider .slick-arrow {
+   position: absolute;
+   top: 50%;
+   margin: -30px 110px 0;
+   z-index: 0;
+   font-size: 0;
+   width: 60px;
+   height: 60px;
+   border: none;
+}
+.reviews__slider .slick-arrow.slick-disabled {
+   opacity: 0.4;
+}
+.reviews__slider .slick-arrow.slick-prev {   
+   left: 0;
+   background: url(/icons/reviews/left.svg) 0 0/100% no-repeat;
+   cursor: pointer;
+   padding: 0;
+}
+.reviews__slider .slick-arrow.slick-next {
+   right: 0;
+   background: url(/icons/reviews/right.svg) 0 0/100% no-repeat;
+   cursor: pointer;
+   padding: 0;
+}
+.reviews__slider .slick-dots {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 0 97.5px 0;
+   padding: 0;
+}
+.reviews__slider .slick-dots li {
+   list-style: none;
+   margin: 0 10px;
+}
+.reviews__slider .slick-dots li.slick-active button {
+   background-color: transparent;
+   border: 2px solid red;
+}
+.reviews__slider .slick-dots button {
+   font-size: 0;
+   width: 10px;
+   height: 10px;
+   background-color: #e6e6e6;
+   border-radius: 50%;
+   padding: 0;
+   border: none;
+}
+// _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+//@media _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+@media (max-width: 1180px) {
+   .reviews__slider .slick-arrow {
+      margin: -30px 50px 0;
+   }
+   .reviews__slider {
+      padding: 0 150px;
+   }
+   .slider-it {
+      flex-direction: column;
+   }
+   .reviews__foto {
+      margin: 0;
+   }
+   .reviews__text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+   }
+   .reviews__text h3 {
+      margin: 30px 0 40px 0;
+   }
+   .reviews__slider .slick-dots {
+      margin: 30px 0 97.5px 0;
+   }
+}
+@media (min-width: 603px) {
+   .reviews__body {
+      display: block;
+   }
+}

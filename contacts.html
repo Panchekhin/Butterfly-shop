@@ -15,9 +15,10 @@
 <body>
   <div class="container">
     <header class="header">
-      <a name="top"></a>
       <div class="header__body">
-        <div class="logo">Butterfly</div>
+        <div class="catalog__logo">
+          <a href="index.html">Butterfly</a>
+        </div>
         <!-- BURGER MENU -->
         <div class="header__burger">
           <span></span>
@@ -25,47 +26,39 @@
         <!-- BURGER MENU -->
         <div class="nav">
           <ul>
-            <li><a href="">Каталог</a></li>
-            <li><a href="">Отзывы</a></li>
-            <li><a href="">Контакты</a></li>
-            <li><a href="">FAQ</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="reviews.html">Отзывы</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="faq.html">FAQ</a></li>
           </ul>
         </div>
       </div>
     </header>
     <main>
-      <div class="main__our-work">
-        <div class="main__our-work-title">
-          <h2>Наши работы</h2>
+      <div class="contacts_main__our-work">
+        <div class="contacts_main__our-work-title">
+          <h2>Контакты</h2>
         </div>
-        <div class="our-work__container">
-          <div class="our-work__item">
-            <div class="item_01__content">
-              <img src="/img/our-work/01.svg" alt="Синяя бабочка">
-              <div class="our-work__text"><a href="#">Бабочка такая</a></div>
-            </div>
-          </div>
-          <div class="our-work__item">
-            <div class="item_02__content">
-              <img src="/img/our-work/02.svg" alt="Две синих бабочки">
-              <div class="our-work__text"><a href="#">Бабочка растакая</a></div>
-            </div>
-          </div>
-          <div class="our-work__item">
-            <div class="item_03__content">
-              <img src="/img/our-work/03.svg" alt="Мужчина с аббочкой">
-              <div class="our-work__text"><a href="#">Бабочка сякая</a></div>
-            </div>
-          </div>
-          <div class="our-work__item">
-            <div class="item_04__content">
-              <img src="/img/our-work/04.svg" alt="Кот с розовой бабаочкой">
-              <div class="our-work__text"><a href="#">Кривая</a></div>
-            </div>
-          </div>
+        <div class="cities__menu">
+          <ul>
+            <li><a href="">Санкт-Петрбург</a></li>
+            <li><a href="">Москва</a></li>
+            <li><a href="">Великий Новгород</a></li>
+          </ul>
         </div>
-        <div class="main__our-work-button">
-          <button class="main__our-work-btn button"><a href="#">Все бабочки</a></button>
+        <div class="map__block">
+          <div class="map__block_text">
+            <div class="map-text">
+              <p>Спасский переулок, д. 14</p>
+              <p>Тел: +7 812 800-8080</p>
+              <p>Пн-Пт с 9-00 до 20-00</p>
+            </div>
+          </div>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13739.381677319561!2d37.62452206196935!3d55.75135981689521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a738fa419%3A0x7c347d506b52311f!2z0JrRgNCw0YHQvdCw0Y8g0J_Qu9C-0YnQsNC00Yw!5e0!3m2!1sru!2sru!4v1645561126381!5m2!1sru!2sru"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
         </div>
       </div>
       <div class="main__order-tailoring">
@@ -98,7 +91,7 @@
     </main>
     <footer class="footer">
       <div class="footer__logo">
-        <a href=#top>Butterfly</a>
+        <a href="index.html">Butterfly</a>
       </div>
       <div class="footer__contact">
         <div class="footer__fonenumber"><a href="tel:+78128008080">+7 812 800-80-80</a></div>
@@ -111,6 +104,7 @@
     </footer>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 

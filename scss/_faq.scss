@@ -1,0 +1,47 @@
+.faq_body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   border: 1px solid rgba(255, 45, 45, 0.2);
+   padding: 25px 30px 30px;
+   margin: 0 82px 130px;
+}
+.payment__top {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+}
+.payment__title h4 {
+   font-family: 'Open Sans';
+   font-weight: 300;
+   font-size: calc(24px + 12 * (100vw / 1440));
+   line-height: 136%;
+   margin: 0;
+   color: #152B3C;
+}
+.payment__icon {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.payment__icon a{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 40px;
+   height: 40px;
+}
+#payment__text {
+   display: none;
+   margin: 25px 43px 0 0;
+}
+#payment__text p {
+   height: 100%;
+   font-family: 'Open Sans';
+   font-weight: 300;
+   font-size: calc(24px + -6 * (100vw / 1440));
+   line-height: 138%;
+   margin: 0;
+}
